@@ -1,0 +1,5 @@
+{
+  "done_flag": false,
+  "err_type": "<class 'paddlex.utils.errors.others.CalledProcessError'>",
+  "err_msg": "Command ['\/opt\/conda\/envs\/paddlex_beta\/bin\/python', 'tools\/export_model.py', '-c', '\/root\/.paddlex\/tmpo8ywg8ob\/clsmodel_ResNet50_face.yml', '-o', 'Global.export_for_fd=True'] returned non-zero exit status 1."
+}

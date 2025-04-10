@@ -1,0 +1,51 @@
+crop_thresh: 0.5
+attr_thresh: 0.5
+kpt_thresh: 0.2
+visual: True
+warmup_frame: 50
+
+DET:
+  model_dir: inference_model/ppyolo_r50vd_dcn_1x_coco
+  batch_size: 1
+  threshold: 0.6
+  display_frames: 80
+  skip_frame_num: 2
+  enable: False
+
+DET_FACE:
+  model_dir: inference_model/BlazeFace
+  det_thresh: 0.8
+  enable: True
+
+REC_FACE:
+  model_dir: inference_model/ResNet50_face_infer
+  index: dataset/face_demo_gallery/index.bin
+  cdd_num: 5
+  rec_thresh: 0.45
+  batch_size: 1
+  enable: True
+
+SHOPLIFTING_ACTION:
+  model_dir: inference_model/Shoplifting
+  batch_size: 1
+  sequence_length: 20
+  frame_len: 8
+  sample_freq: 7
+  short_size: 340
+  target_size: 320
+  enable: True
+
+ARSON_ACTION:
+  model_dir: inference_model/Arson
+  batch_size: 1
+  sequence_length: 20
+  sample_freq: 7
+  short_size: 340
+  target_size: 320
+  enable: True
+
+
+
+
+
+
