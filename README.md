@@ -1,6 +1,70 @@
 # Smart Surveillance System
-The Smart Surveillance System is an advanced security solution designed to enhance public safety and prevent criminal activities such as shoplifting and arson. This project integrates multiple AI models, including face recognition, shoplifting recognition, and arson recognition, into a unified system capable of real-time monitoring and threat detection. The face recognition module utilizes BlazeFace for face detection and ResNet50Face for face recognition, which is implemented using the PaddlePaddle framework. For event detection, the system employs Long-term Recurrent Convolutional Networks (LRCN) on TensorFlow to analyze video sequences and identify shoplifting and arson events. These models are developed as video action recognition systems, processing sequences of frames to detect temporal patterns and ensure accurate event detection.  
 
-The system features a user-friendly interface built with PyQt, allowing users to manage multiple cameras, view live feeds, and receive real-time alerts. The interface is designed to be intuitive and scalable, catering to both small-scale and large-scale deployments.  
+The **Smart Surveillance System** is an advanced security solution designed to enhance public safety and prevent criminal activities such as shoplifting and arson. This project integrates multiple AI models for robust, real-time surveillance and incident detection.
 
-The project was rigorously tested, achieving high accuracy in face recognition and event detection, with minimal latency for real-time processing. The Smart Surveillance System demonstrates the potential of AI-driven solutions in modern security applications, offering a scalable, efficient, and user-friendly platform for preventing and mitigating criminal activities. This project lays the foundation for future advancements in intelligent surveillance systems.
+## Features
+
+- **Face Recognition**: Utilizes BlazeFace and ResNet50Face models for accurate and efficient facial identification.
+- **Shoplifting Detection**: Employs advanced AI to identify suspicious behavior and potential shoplifting incidents.
+- **Arson Recognition**: Detects arson attempts and fire hazards using LRCN (Long-term Recurrent Convolutional Networks).
+- **Multi-Model Integration**: Seamlessly combines different AI models for comprehensive surveillance.
+- **Python-based Implementation**: Easy to extend or modify for different surveillance scenarios.
+
+## Technology Stack
+
+- **Programming Language:** Python
+- **AI Models:**
+  - BlazeFace
+  - ResNet50Face
+  - LRCN
+- **Computer Vision & Deep Learning Frameworks:** [Specify frameworks, e.g., TensorFlow, PyTorch, OpenCV, etc.]
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/TareqAlKushari/Smart-Surveillance-System.git
+   cd Smart-Surveillance-System
+   ```
+
+2. **Install dependencies:**
+   - Ensure you have Python 3.x installed.
+   - Install required packages (see `requirements.txt` if available):
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Prepare the models:**
+   - Download or train the necessary AI models as described in the documentation or code comments.
+
+4. **Run the system:**
+   - Start the surveillance system with:
+     ```bash
+     python main.py
+     ```
+   - (Adjust filename/entry point if different.)
+
+## Usage
+
+- Configure camera sources and detection parameters in the configuration files.
+- View real-time alerts and logs for detected incidents.
+- Extend detection capabilities by integrating additional AI models.
+
+## Contributing
+
+Contributions are welcome!  
+Feel free to:
+- Open issues for bugs or feature requests.
+- Submit pull requests to improve code, add features, or update documentation.
+
+## License
+
+[No license specified.]
+
+## Contact
+
+For more information, visit the [repository](https://github.com/TareqAlKushari/Smart-Surveillance-System) or reach out to [@TareqAlKushari](https://github.com/TareqAlKushari).
+
+---
+
+*Empowering public safety with intelligent surveillance.*
