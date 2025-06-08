@@ -17,7 +17,7 @@ The **Smart Surveillance System** is an advanced security solution designed to e
   - BlazeFace
   - ResNet50Face
   - LRCN
-- **Computer Vision & Deep Learning Frameworks:** [Specify frameworks, e.g., TensorFlow, PyTorch, OpenCV, etc.]
+- **Computer Vision & Deep Learning Frameworks:** TensorFlow, PaddlePaddle, OpenCV.
 
 ## Getting Started
 
